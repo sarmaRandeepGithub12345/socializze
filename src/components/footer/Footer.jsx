@@ -6,7 +6,7 @@ export const Footer = () => {
       <p className="text-sm text-gray-600">
         © 2025 Socializze. All rights reserved. •{" "}
         <Link
-          href="/privacy-policy"
+          to="/privacy-policy"
           className="text-blue-500 hover:underline cursor-pointer"
         >
           Privacy Policy
