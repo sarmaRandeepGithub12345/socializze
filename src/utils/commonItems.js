@@ -1,5 +1,5 @@
-// export const backendBase = "https://socializzebackend.site";
-export const backendBase = " http://localhost:8000";
+export const backendBase = "https://socializzebackend.site";
+// export const backendBase = " http://localhost:8000";
 export const backendUrl = backendBase + "/api/";
 
 export function checkTokenValidity(token) {

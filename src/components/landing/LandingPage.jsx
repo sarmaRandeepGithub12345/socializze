@@ -17,7 +17,7 @@ export default function LandingPage({ title }) {
   // Close modal if clicking outside the modal content
   const { dispatch, isLoading, setisLoading } = useCommonItems();
   const navigate = useNavigate();
-  const [error, seterror] = useState({ type: "none", text: "test" });
+  const [error, seterror] = useState({ type: "none", text: "" });
   useEffect(() => {
     document.title = title;
   }, []);
